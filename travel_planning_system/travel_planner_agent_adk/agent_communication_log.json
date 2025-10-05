@@ -1,0 +1,96 @@
+{
+  "communications": [
+    {
+      "timestamp": "2025-10-05T11:33:53.891059",
+      "session_id": "test_session_001",
+      "agent_name": "Hotel_Booking_Agent",
+      "request": "Find budget-friendly hotels in Paris",
+      "response": {
+        "id": "msg_test_001",
+        "result": {
+          "type": "text",
+          "content": "Test hotel recommendations for Paris",
+          "metadata": {
+            "agent": "hotel_booking_agent",
+            "timestamp": "2025-10-05T12:00:00",
+            "capabilities_used": [
+              "hotel_search",
+              "llm_processing"
+            ]
+          }
+        },
+        "status": "success"
+      },
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-10-05T11:33:53.892234",
+      "session_id": "test_session_001",
+      "agent_name": "Car_Rental_Agent",
+      "request": "Find car rental options in Paris",
+      "response": {
+        "id": "msg_test_002",
+        "result": {
+          "type": "text",
+          "content": "Test car rental options for Paris",
+          "metadata": {
+            "agent": "car_rental_agent",
+            "timestamp": "2025-10-05T12:00:00",
+            "capabilities_used": [
+              "car_rental_search",
+              "llm_processing"
+            ]
+          }
+        },
+        "status": "success"
+      },
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-10-05T11:35:19.220920",
+      "session_id": "a2a_session",
+      "agent_name": "Hotel_Booking_Agent",
+      "request": "Find budget-friendly hotels in Tokyo for the requested dates",
+      "response": {
+        "id": "msg_20251005_113514",
+        "result": {
+          "type": "text",
+          "content": "\n**Hotel Recommendations for Paris**\n\n[\n  {\n    \"name\": \"THE 10 BEST Cheap Hotels in Paris 2025 (with Prices)\",\n    \"description\": \"1. Hotel Astoria - Astotel \\u00b7 2. Hotel 34B - Astotel \\u00b7 3. Hotel Paris Louis Blanc \\u00b7 4. Hotel Joke - Astotel \\u00b7 5. Hotel de Londres Eiffel \\u00b7 6.\",\n    \"link\": \"https://www.tripadvisor.com/HotelsList-Paris-Cheap-Hotels-zfp10420.html\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"budget\": \"any\",\n    \"estimated_cost_usd\": \"N/A\"\n  },\n  {\n    \"name\": \"10 Budget Friendly Hotels in Paris\",\n    \"description\": \"Maison M\\u00e8re is a boutique hotel, Hotel Bienvenue rooms start at $100-$200, Hotel Monge has free breakfast, Hotel Royal Madeleine is $160-$180, and Hotel Th\\u00e8 ...\",\n    \"link\": \"https://everydayparisian.com/10-budget-friendly-hotels-in-paris/\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"budget\": \"any\",\n    \"estimated_cost_usd\": \"$100 USD\"\n  },\n  {\n    \"name\": \"The Cheapest Nicest Hotels in Paris\",\n    \"description\": \"These are our favorite reasonably priced, smart hotels in Paris with room rates under $250 a night. Comfortable, stylish, and well positioned.\",\n    \"link\": \"https://www.cntraveler.com/gallery/cheapest-nicest-hotels-in-paris\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"budget\": \"any\",\n    \"estimated_cost_usd\": \"$250 USD\"\n  },\n  {\n    \"name\": \"10 Best Budget Hotels in Paris - Where to stay in ...\",\n    \"description\": \"We've put together this list of 10 hotels with good reviews and fair prices in different parts of Paris that won't break the bank.\",\n    \"link\": \"https://www.youtube.com/watch?v=gMGXqMnfeLo\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"budget\": \"any\",\n    \"estimated_cost_usd\": \"N/A\"\n  },\n  {\n    \"name\": \"The Best Cheap Hotels in Paris from $64\",\n    \"description\": \"Are you on a budget? With Expedia, book now and pay later on most Cheap Paris Hotels! Browse our selection of 830 cheap hotels in Paris and save money on ...\",\n    \"link\": \"https://www.expedia.com/Paris-Hotels-Cheap-Hotels.0-0-d179898-tCheapHotels.Travel-Guide-Filter-Hotels\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"budget\": \"any\",\n    \"estimated_cost_usd\": \"N/A\"\n  }\n]\n\n**Booking Information:**\n- Check-in: 2025-10-06\n- Check-out: 2025-10-07\n- Guests: 2\n- Budget: any\n\n**Next Steps:**\nTo book a hotel, please specify:\n1. The hotel you prefer\n2. Your contact information\n3. Any special requirements\n\nThis response was generated using the Simplified Hotel Booking Agent with Groq LLM.\n            ",
+          "metadata": {
+            "agent": "hotel_booking_agent",
+            "timestamp": "2025-10-05T11:35:19.212499",
+            "capabilities_used": [
+              "hotel_search",
+              "llm_processing"
+            ]
+          }
+        },
+        "status": "success"
+      },
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-10-05T11:35:22.432365",
+      "session_id": "a2a_session",
+      "agent_name": "Car_Rental_Agent",
+      "request": "Find car rental options in Tokyo for the requested dates",
+      "response": {
+        "id": "msg_20251005_113519",
+        "result": {
+          "type": "text",
+          "content": "\n**Car Rental Options for Paris**\n\n[\n  {\n    \"name\": \"Paris car rentals from $26/day\",\n    \"description\": \"Looking for car rentals in Paris? Search prices from Citer, Europcar, National, Ofran Holiday Autos, Sunnycars and Thrifty. Latest prices: Economy $27/day.\",\n    \"link\": \"https://www.kayak.com/Cheap-Paris-Car-Rentals.36014.cars.ksp\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"vehicle_type\": \"economy\",\n    \"estimated_cost_usd\": \"$27 USD\"\n  },\n  {\n    \"name\": \"Cheap Car Rental in Paris from 6.13 US$! Book Now!\",\n    \"description\": \"Fiat 500 or similar (mini class) \\u2013 $15/day \\u00b7 Ford Fiesta or similar (economy class) \\u2013 $17/day \\u00b7 Opel Mokka or similar (compact class) \\u2013 $27/day \\u00b7 Peugeot 2008 or ...\",\n    \"link\": \"https://www.economybookings.com/car-rental/europe/france/paris\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"vehicle_type\": \"economy\",\n    \"estimated_cost_usd\": \"$15 USD\"\n  },\n  {\n    \"name\": \"Paris Car Rental - Cheap Deals\",\n    \"description\": \"Rent a car in Paris with SIXT \\u2713 Enjoy flexible booking options \\u2713 Premium vehicles at economy prices \\u2713 English-speaking branch agents \\u2713 the SIXT app.\",\n    \"link\": \"https://www.sixt.com/car-rental/france/paris/\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"vehicle_type\": \"economy\",\n    \"estimated_cost_usd\": \"N/A\"\n  },\n  {\n    \"name\": \"Car rentals in Paris from $32\",\n    \"description\": \"Browse by car category ; Mini. From $34/day ; Economy. From $32/day ; Midsize. From $56/day ; Standard. From $56/day ; Premium. From $68/day.\",\n    \"link\": \"https://m.rentcars.com/en/locations/france/paris-ile-de-france\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"vehicle_type\": \"economy\",\n    \"estimated_cost_usd\": \"$34 USD\"\n  },\n  {\n    \"name\": \"$30 Car Rental Paris\",\n    \"description\": \"According to prices found within the past seven days, the lowest daily rate for a rental vehicle in Paris was just $30. The second lowest price was $73 a day. ...\",\n    \"link\": \"https://www.expedia.com/Car-Rentals-In-Paris.d179898.Car-Rental-Guide\",\n    \"location\": \"Paris\",\n    \"check_in\": \"2025-10-06\",\n    \"check_out\": \"2025-10-07\",\n    \"vehicle_type\": \"economy\",\n    \"estimated_cost_usd\": \"$30. USD\"\n  }\n]\n\n**Rental Information:**\n- Check-in: 2025-10-06\n- Check-out: 2025-10-07\n- Vehicle Type: economy\n- Passengers: 2\n\n**Next Steps:**\nTo book a car rental, please specify:\n1. The rental company you prefer\n2. Your driver's license information\n3. Any special requirements\n\nThis response was generated using the Simplified Car Rental Agent with Groq LLM.\n            ",
+          "metadata": {
+            "agent": "car_rental_agent",
+            "timestamp": "2025-10-05T11:35:22.430847",
+            "capabilities_used": [
+              "car_rental_search",
+              "llm_processing"
+            ]
+          }
+        },
+        "status": "success"
+      },
+      "status": "success"
+    }
+  ]
+}

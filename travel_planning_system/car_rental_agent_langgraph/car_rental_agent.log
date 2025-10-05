@@ -1,0 +1,43 @@
+2025-10-05 10:48:48,053 - simple_car_agent - INFO - Initializing Car Rental Agent
+2025-10-05 10:48:49,133 - simple_car_agent - INFO - Car Rental Agent initialized successfully
+2025-10-05 11:03:12,092 - simple_car_agent - INFO - Initializing Car Rental Agent
+2025-10-05 11:03:13,435 - simple_car_agent - INFO - Car Rental Agent initialized successfully
+2025-10-05 11:18:53,040 - simple_car_agent - INFO - Initializing Car Rental Agent
+2025-10-05 11:18:54,271 - simple_car_agent - INFO - Car Rental Agent initialized successfully
+2025-10-05 11:24:56,361 - simple_car_agent - INFO - Initializing Car Rental Agent
+2025-10-05 11:24:58,345 - simple_car_agent - INFO - Car Rental Agent initialized successfully
+2025-10-05 11:26:32,093 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643792.0930834, "operation": "process_request_start", "details": {"message": "Find car rental options in Tokyo for the requested dates", "message_length": 56}, "agent": "car_rental_agent"}
+2025-10-05 11:26:32,093 - simple_car_agent - INFO - Sending request to LLM for analysis
+2025-10-05 11:26:33,298 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-05 11:26:33,307 - simple_car_agent - INFO - LLM response received in 1.21 seconds
+2025-10-05 11:26:33,307 - simple_car_agent - WARNING - Failed to parse LLM response as JSON, using defaults
+2025-10-05 11:26:33,308 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643793.308165, "operation": "llm_analysis_complete", "details": {"extracted_info": {"location": "Paris", "check_in": "2025-10-06", "check_out": "2025-10-07", "vehicle_type": "economy", "passengers": 2}, "llm_duration": 1.213545799255371}, "agent": "car_rental_agent"}
+2025-10-05 11:26:33,308 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643793.3083909, "operation": "search_car_rentals_start", "details": {"location": "Paris", "check_in": "2025-10-06", "check_out": "2025-10-07", "vehicle_type": "economy"}, "agent": "car_rental_agent"}
+2025-10-05 11:26:33,308 - simple_car_agent - INFO - Searching for car rentals with query: car rental in Paris from 2025-10-06 to 2025-10-07 economy cars
+2025-10-05 11:26:35,226 - simple_car_agent - INFO - Car rental search completed in 1.92 seconds
+2025-10-05 11:26:35,227 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643795.2274354, "operation": "search_car_rentals_success", "details": {"results_count": 5, "search_duration": 1.917283296585083, "location": "Paris"}, "agent": "car_rental_agent"}
+2025-10-05 11:26:35,232 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643795.2324638, "operation": "process_request_success", "details": {"response_length": 2757, "location": "Paris"}, "agent": "car_rental_agent"}
+2025-10-05 11:27:52,291 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643872.291834, "operation": "process_request_start", "details": {"message": "Find car rental options in Tokyo for the requested dates", "message_length": 56}, "agent": "car_rental_agent"}
+2025-10-05 11:27:52,292 - simple_car_agent - INFO - Sending request to LLM for analysis
+2025-10-05 11:27:53,298 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-05 11:27:53,299 - simple_car_agent - INFO - LLM response received in 1.01 seconds
+2025-10-05 11:27:53,300 - simple_car_agent - WARNING - Failed to parse LLM response as JSON, using defaults
+2025-10-05 11:27:53,300 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643873.3002656, "operation": "llm_analysis_complete", "details": {"extracted_info": {"location": "Paris", "check_in": "2025-10-06", "check_out": "2025-10-07", "vehicle_type": "economy", "passengers": 2}, "llm_duration": 1.0075740814208984}, "agent": "car_rental_agent"}
+2025-10-05 11:27:53,300 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643873.300497, "operation": "search_car_rentals_start", "details": {"location": "Paris", "check_in": "2025-10-06", "check_out": "2025-10-07", "vehicle_type": "economy"}, "agent": "car_rental_agent"}
+2025-10-05 11:27:53,300 - simple_car_agent - INFO - Searching for car rentals with query: car rental in Paris from 2025-10-06 to 2025-10-07 economy cars
+2025-10-05 11:27:55,121 - simple_car_agent - INFO - Car rental search completed in 1.82 seconds
+2025-10-05 11:27:55,122 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643875.1221333, "operation": "search_car_rentals_success", "details": {"results_count": 5, "search_duration": 1.8208625316619873, "location": "Paris"}, "agent": "car_rental_agent"}
+2025-10-05 11:27:55,123 - simple_car_agent - INFO - TRACE: {"timestamp": 1759643875.1238098, "operation": "process_request_success", "details": {"response_length": 2757, "location": "Paris"}, "agent": "car_rental_agent"}
+2025-10-05 11:34:34,003 - simple_car_agent - INFO - Initializing Car Rental Agent
+2025-10-05 11:34:35,181 - simple_car_agent - INFO - Car Rental Agent initialized successfully
+2025-10-05 11:35:19,903 - simple_car_agent - INFO - TRACE: {"timestamp": 1759644319.9035954, "operation": "process_request_start", "details": {"message": "Find car rental options in Tokyo for the requested dates", "message_length": 56}, "agent": "car_rental_agent"}
+2025-10-05 11:35:19,904 - simple_car_agent - INFO - Sending request to LLM for analysis
+2025-10-05 11:35:21,175 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-05 11:35:21,191 - simple_car_agent - INFO - LLM response received in 1.29 seconds
+2025-10-05 11:35:21,192 - simple_car_agent - WARNING - Failed to parse LLM response as JSON, using defaults
+2025-10-05 11:35:21,192 - simple_car_agent - INFO - TRACE: {"timestamp": 1759644321.1921923, "operation": "llm_analysis_complete", "details": {"extracted_info": {"location": "Paris", "check_in": "2025-10-06", "check_out": "2025-10-07", "vehicle_type": "economy", "passengers": 2}, "llm_duration": 1.2873353958129883}, "agent": "car_rental_agent"}
+2025-10-05 11:35:21,192 - simple_car_agent - INFO - TRACE: {"timestamp": 1759644321.1924078, "operation": "search_car_rentals_start", "details": {"location": "Paris", "check_in": "2025-10-06", "check_out": "2025-10-07", "vehicle_type": "economy"}, "agent": "car_rental_agent"}
+2025-10-05 11:35:21,192 - simple_car_agent - INFO - Searching for car rentals with query: car rental in Paris from 2025-10-06 to 2025-10-07 economy cars
+2025-10-05 11:35:22,429 - simple_car_agent - INFO - Car rental search completed in 1.24 seconds
+2025-10-05 11:35:22,430 - simple_car_agent - INFO - TRACE: {"timestamp": 1759644322.430263, "operation": "search_car_rentals_success", "details": {"results_count": 5, "search_duration": 1.237043857574463, "location": "Paris"}, "agent": "car_rental_agent"}
+2025-10-05 11:35:22,430 - simple_car_agent - INFO - TRACE: {"timestamp": 1759644322.4306624, "operation": "process_request_success", "details": {"response_length": 2757, "location": "Paris"}, "agent": "car_rental_agent"}

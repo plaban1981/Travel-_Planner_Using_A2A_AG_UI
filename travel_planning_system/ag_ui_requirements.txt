@@ -1,0 +1,40 @@
+# AG-UI Travel Planner Server Requirements
+# Core FastAPI and web server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# HTTP client for agent communication
+requests==2.31.0
+httpx==0.25.2
+
+# Data validation and serialization
+pydantic==2.5.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# LLM integration
+langchain-groq==0.0.1
+langchain-core==0.1.0
+
+# CORS middleware
+fastapi-cors==0.0.6
+
+# JSON handling
+orjson==3.9.10
+
+# Async support
+asyncio-mqtt==0.16.1
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Optional: For enhanced UI features
+jinja2==3.1.2
+aiofiles==23.2.1
